@@ -1,7 +1,10 @@
-var awesomeThoughts = "I am Franco and I'm AWESOME!";
+var name = "Franco Sarachu";
+var role = "Fullstack Web Developer";
 
-console.log(awesomeThoughts);
+var formattedName = HTMLheaderName.replace("%data%", name);
+var formattedRole = HTMLheaderRole.replace("%data%", role);
 
-var funThoughts = awesomeThoughts.replace("AWESOME", "FUN");
+var $header = $("#header");
 
-$("#main").append(funThoughts);
+$header.prepend(formattedRole);
+$header.prepend(formattedName);
