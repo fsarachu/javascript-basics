@@ -14,10 +14,14 @@ var bio = {
     "bioPic": "images/fry.jpg"
 };
 
-// var formattedName = HTMLheaderName.replace("%data%", bio.name);
-// var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-//
-// var $header = $("#header");
-//
-// $header.prepend(formattedRole);
-// $header.prepend(formattedName);
+var $header = $("#header");
+
+$header.prepend(HTMLheaderRole.replace("%data%", bio.role));
+$header.prepend(HTMLheaderName.replace("%data%", bio.name));
+
+var $contacts = $("#topContacts");
+
+$contacts.append(HTMLemail.replace("%data%", bio.contacts.email));
+$contacts.append(HTMLmobile.replace("%data%", bio.contacts.mobile));
+$contacts.append(HTMLlocation.replace("%data%", bio.contacts.location));
+$contacts.append(HTMLgithub.replace("%data%", bio.contacts.github));
