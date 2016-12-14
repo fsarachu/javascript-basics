@@ -18,8 +18,8 @@ var work = {};
 
 work.title = "Freelance Fullstack Web Developer";
 work.position = "Fullstack Web Developer";
-work.employer = "None";
-work.years = "1 and counting";
+work.employer = "Independent";
+work.years = "1 year and counting";
 work.city = "Remote, Maldonado (Uruguay) based";
 
 var education = {};
