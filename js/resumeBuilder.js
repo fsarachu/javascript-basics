@@ -16,8 +16,10 @@ var bio = {
 
 var $header = $("#header");
 
+$header.prepend(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
 $header.prepend(HTMLheaderRole.replace("%data%", bio.role));
 $header.prepend(HTMLheaderName.replace("%data%", bio.name));
+$header.prepend(HTMLbioPic.replace("%data%", bio.bioPic));
 
 var $contacts = $("#topContacts");
 
