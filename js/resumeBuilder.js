@@ -21,6 +21,12 @@ work.employer = "None";
 work.years = "1 and counting";
 work.city = "Remote, Maldonado (Uruguay) based";
 
+var education = {};
+
+education["lastSchool"] = "CURE";
+education["years"] = "2";
+education["city"] = "Maldonado (Uruguay)";
+
 var $header = $("#header");
 
 $header.prepend(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
