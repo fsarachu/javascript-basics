@@ -14,6 +14,13 @@ var bio = {
     "bioPic": "images/fry.jpg"
 };
 
+var work = {};
+
+work.position = "Freelance Fullstack Web Developer";
+work.employer = "None";
+work.years = "1 and counting";
+work.city = "Remote, Maldonado (Uruguay) based";
+
 var $header = $("#header");
 
 $header.prepend(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
