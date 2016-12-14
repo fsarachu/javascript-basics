@@ -16,7 +16,8 @@ var bio = {
 
 var work = {};
 
-work.position = "Freelance Fullstack Web Developer";
+work.title = "Freelance Fullstack Web Developer";
+work.position = "Fullstack Web Developer";
 work.employer = "None";
 work.years = "1 and counting";
 work.city = "Remote, Maldonado (Uruguay) based";
