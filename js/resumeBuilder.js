@@ -28,6 +28,7 @@ education["lastSchool"] = "CURE";
 education["years"] = "2";
 education["city"] = "Maldonado (Uruguay)";
 
+
 var $header = $("#header");
 
 $header.prepend(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
@@ -35,9 +36,21 @@ $header.prepend(HTMLheaderRole.replace("%data%", bio.role));
 $header.prepend(HTMLheaderName.replace("%data%", bio.name));
 $header.prepend(HTMLbioPic.replace("%data%", bio.bioPic));
 
+
 var $contacts = $("#topContacts");
 
 $contacts.append(HTMLemail.replace("%data%", bio.contacts.email));
 $contacts.append(HTMLmobile.replace("%data%", bio.contacts.mobile));
 $contacts.append(HTMLlocation.replace("%data%", bio.contacts.location));
 $contacts.append(HTMLgithub.replace("%data%", bio.contacts.github));
+
+
+var $workExperience = $("#workExperience");
+var $workStart = $(HTMLworkStart);
+
+$workExperience.append($workStart);
+$workStart.append(HTMLworkEmployer.replace("%data%", work.employer));
+$workStart.append(HTMLworkTitle.replace("%data%", work.title));
+$workStart.append(HTMLworkDescription.replace("%data%", work.position));
+$workStart.append(HTMLworkDates.replace("%data%", work.years));
+$workStart.append(HTMLworkLocation.replace("%data%", work.city));
