@@ -26,7 +26,7 @@ var education = {};
 
 education["lastSchool"] = "CURE";
 education["degree"] = "Tecnólogo en Informática";
-education["years"] = "2";
+education["years"] = "2015 - 2018 (Expected)";
 education["city"] = "Maldonado (Uruguay)";
 
 
@@ -55,3 +55,13 @@ $workStart.append(HTMLworkTitle.replace("%data%", work.title));
 $workStart.append(HTMLworkDescription.replace("%data%", work.position));
 $workStart.append(HTMLworkDates.replace("%data%", work.years));
 $workStart.append(HTMLworkLocation.replace("%data%", work.city));
+
+
+var $education = $("#education");
+var $schoolStart = $(HTMLschoolStart);
+
+$education.append($schoolStart);
+$schoolStart.append(HTMLschoolName.replace("%data%", education.name));
+$schoolStart.append(HTMLschoolDegree.replace("%data%", education.degree));
+$schoolStart.append(HTMLschoolDates.replace("%data%", education.years));
+$schoolStart.append(HTMLschoolLocation.replace("%data%", education.city));
