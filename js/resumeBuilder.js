@@ -25,6 +25,7 @@ work.city = "Remote, Maldonado (Uruguay) based";
 var education = {};
 
 education["lastSchool"] = "CURE";
+education["degree"] = "Tecnólogo en Informática";
 education["years"] = "2";
 education["city"] = "Maldonado (Uruguay)";
 
