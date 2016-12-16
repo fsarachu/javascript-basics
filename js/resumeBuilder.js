@@ -15,24 +15,36 @@ var bio = {
 };
 
 var work = {
-    "title": "Freelance Fullstack Web Developer",
-    "position": "Fullstack Web Developer",
-    "employer": "Independent",
-    "years": "2016 - Today",
-    "city": "Remote, Maldonado (Uruguay) based"
+    "work": [
+        {
+            "title": "Freelance Fullstack Web Developer",
+            "position": "Fullstack Web Developer",
+            "employer": "Independent",
+            "years": "2016 - Today",
+            "city": "Remote, Maldonado (Uruguay) based"
+        }
+    ]
 };
 
 
 var education = {
-    "lastSchool": "CURE",
-    "degree": "Tecnólogo en Informática",
-    "years": "2015 - 2018 (Expected)",
-    "city": "Maldonado (Uruguay)"
+    "education": [
+        {
+            "lastSchool": "CURE",
+            "degree": "Tecnólogo en Informática",
+            "years": "2015 - 2018 (Expected)",
+            "city": "Maldonado (Uruguay)"
+        }
+    ]
 };
 
-var project = {
-    "title": "Website Design",
-    "dates": "1 may 2016 - 15 may 2016",
-    "description": "Full website design, only photoshop mockups",
-    "image": "images/197x148.gif"
+var projects = {
+    "projects": [
+        {
+            "title": "Website Design",
+            "dates": "1 may 2016 - 15 may 2016",
+            "description": "Full website design, only photoshop mockups",
+            "image": "images/197x148.gif"
+        }
+    ]
 };
