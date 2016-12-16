@@ -14,13 +14,14 @@ var bio = {
     "bioPic": "images/fry.jpg"
 };
 
-var work = {};
+var work = {
+    "title": "Freelance Fullstack Web Developer",
+    "position": "Fullstack Web Developer",
+    "employer": "Independent",
+    "years": "2016 - Today",
+    "city": "Remote, Maldonado (Uruguay) based"
+};
 
-work.title = "Freelance Fullstack Web Developer";
-work.position = "Fullstack Web Developer";
-work.employer = "Independent";
-work.years = "1 year and counting";
-work.city = "Remote, Maldonado (Uruguay) based";
 
 var education = {};
 
