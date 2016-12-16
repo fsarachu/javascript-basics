@@ -29,3 +29,10 @@ var education = {
     "years": "2015 - 2018 (Expected)",
     "city": "Maldonado (Uruguay)"
 };
+
+var project = {
+    "title": "Website Design",
+    "dates": "1 may 2016 - 15 may 2016",
+    "description": "Full website design, only photoshop mockups",
+    "image": "images/197x148.gif"
+};
