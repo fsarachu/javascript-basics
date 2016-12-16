@@ -23,9 +23,9 @@ var work = {
 };
 
 
-var education = {};
-
-education["lastSchool"] = "CURE";
-education["degree"] = "Tecnólogo en Informática";
-education["years"] = "2015 - 2018 (Expected)";
-education["city"] = "Maldonado (Uruguay)";
+var education = {
+    "lastSchool": "CURE",
+    "degree": "Tecnólogo en Informática",
+    "years": "2015 - 2018 (Expected)",
+    "city": "Maldonado (Uruguay)"
+};
