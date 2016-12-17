@@ -17,6 +17,13 @@ var bio = {
 var work = {
   "work": [
     {
+      "title": "Mobile phone repairing",
+      "position": "Serviceman",
+      "employer": "Independent",
+      "years": "2014 - 2015",
+      "city": "Maldonado (Uruguay)"
+    },
+    {
       "title": "Freelance Fullstack Web Developer",
       "position": "Fullstack Web Developer",
       "employer": "Independent",
