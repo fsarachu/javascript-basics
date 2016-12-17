@@ -56,6 +56,21 @@ var projects = {
   ]
 };
 
+projects.display = function () {
+  if (this.projects.length > 0) {
+    var $projects = $("#projects");
+
+    this.projects.forEach(function (project) {
+      var $projectEntry = $(HTMLprojectStart);
+      $projects.append($projectEntry);
+      $projectEntry.append(HTMLprojectTitle.replace("%data%", project.title));
+      $projectEntry.append(HTMLprojectDates.replace("%data%", project.dates));
+      $projectEntry.append(HTMLprojectDescription.replace("%data%", project.description));
+      $projectEntry.append(HTMLprojectImage.replace("%data%", project.image));
+    });
+  }
+};
+
 function displayInfo() {
   var $header = $("#header");
   $header.prepend(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
@@ -102,3 +117,4 @@ function displayWork() {
 displayInfo();
 displaySkills();
 displayWork();
+projects.display();
