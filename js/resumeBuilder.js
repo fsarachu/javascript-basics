@@ -65,3 +65,15 @@ if (bio.skills.length > 0) {
     $skills.append(HTMLskills.replace("%data%", skill));
   })
 }
+
+if (work.jobs.length > 0) {
+  var $workExperience = $("#workExperience");
+
+  for (var job in work.jobs) {
+    var $workEntry = $(HTMLworkStart);
+    $workExperience.append($workEntry);
+
+    var newJob = work.jobs[job];
+    $workEntry.append(HTMLworkEmployer.replace("%data%", newJob.employer) + HTMLworkTitle.replace("%data%", newJob.title));
+  }
+}
