@@ -75,5 +75,8 @@ if (work.jobs.length > 0) {
 
     var newJob = work.jobs[job];
     $workEntry.append(HTMLworkEmployer.replace("%data%", newJob.employer) + HTMLworkTitle.replace("%data%", newJob.title));
+    $workEntry.append(HTMLworkDates.replace("%data%", newJob.years));
+    $workEntry.append(HTMLworkLocation.replace("%data%", newJob.city));
+    $workEntry.append(HTMLworkDescription.replace("%data%", newJob.position));
   }
 }
