@@ -15,7 +15,7 @@ var bio = {
 };
 
 var work = {
-  "work": [
+  "jobs": [
     {
       "title": "Mobile phone repairing",
       "position": "Serviceman",
