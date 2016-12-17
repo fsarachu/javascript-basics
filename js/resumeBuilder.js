@@ -56,14 +56,16 @@ var projects = {
   ]
 };
 
-if (bio.skills.length > 0) {
-  $("#header").append(HTMLskillsStart);
+function displaySkills() {
+  if (bio.skills.length > 0) {
+    $("#header").append(HTMLskillsStart);
 
-  var $skills = $("#skills");
+    var $skills = $("#skills");
 
-  bio.skills.forEach(function (skill) {
-    $skills.append(HTMLskills.replace("%data%", skill));
-  })
+    bio.skills.forEach(function (skill) {
+      $skills.append(HTMLskills.replace("%data%", skill));
+    })
+  }
 }
 
 function displayWork() {
@@ -83,4 +85,5 @@ function displayWork() {
   }
 }
 
+displaySkills();
 displayWork();
