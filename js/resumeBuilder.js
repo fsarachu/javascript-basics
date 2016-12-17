@@ -102,5 +102,3 @@ function displayWork() {
 displayInfo();
 displaySkills();
 displayWork();
-
-$("#main").append(internationalizeButton);
