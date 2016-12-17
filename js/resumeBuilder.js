@@ -118,3 +118,5 @@ displayInfo();
 displaySkills();
 displayWork();
 projects.display();
+
+$("#mapDiv").append(googleMap);
