@@ -40,7 +40,7 @@ var education = {
       "lastSchool": "CURE",
       "degree": "Tecnólogo en Informática",
       "years": "2015 - 2018 (Expected)",
-      "city": "Maldonado (Uruguay)"
+      "city": "Maldonado, Uruguay"
     }
   ]
 };
