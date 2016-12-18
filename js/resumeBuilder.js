@@ -21,14 +21,14 @@ var work = {
       "position": "Serviceman",
       "employer": "Independent",
       "years": "2014 - 2015",
-      "city": "Maldonado (Uruguay)"
+      "city": "Montevideo, Uruguay"
     },
     {
       "title": "Freelance Fullstack Web Developer",
       "position": "Fullstack Web Developer",
       "employer": "Independent",
       "years": "2016 - Today",
-      "city": "Remote, Maldonado (Uruguay) based"
+      "city": "Barcelona, Spain"
     }
   ]
 };
