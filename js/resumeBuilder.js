@@ -35,9 +35,9 @@ var work = {
 
 
 var education = {
-  "education": [
+  "schools": [
     {
-      "lastSchool": "CURE",
+      "name": "CURE",
       "degree": "Tecnólogo en Informática",
       "years": "2015 - 2018 (Expected)",
       "city": "Maldonado, Uruguay"
@@ -120,3 +120,6 @@ displayWork();
 projects.display();
 
 $("#mapDiv").append(googleMap);
+$(function () {
+  initializeMap();
+});
